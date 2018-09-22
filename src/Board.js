@@ -89,6 +89,12 @@ class Board extends Component {
                 <button onClick={this.add.bind(null, "New Note")} id="add">
                     <FaPlus />
                 </button>
+                <div class="fixed-author">
+                    Made by -{" "}
+                    <a href="https://nischal-shrestha.github.io">
+                        Nischal Shrestha
+                    </a>
+                </div>
             </div>
         );
     }

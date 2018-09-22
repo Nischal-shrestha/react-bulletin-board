@@ -119,3 +119,24 @@ div.board button {
 #remove {
     background-color: #d9534f;
 }
+
+div.fixed-author {
+    position: fixed;
+    bottom: 2%;
+    left: 2%;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    color: darkslategray;
+}
+
+.fixed-author > a {
+    text-decoration: none;
+    color: slateblue;
+    font-weight: bold;
+}
+
+.fixed-author > a:hover {
+    color: royalblue;
+    text-decoration: underline;
+}
